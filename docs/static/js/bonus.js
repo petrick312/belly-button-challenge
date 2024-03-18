@@ -24,8 +24,8 @@ function buildGaugeChart(sample) {
         type: "indicator",
         mode: "gauge+number",
         gauge: {
-          axis: { range: [null, 9] },
-          bar: { color: "darkblue" },
+          axis: { range: [0, 9] },
+          bar: { color: "slateblue" },
           steps: [
             { range: [0, 1], color: "#D6EAF8" },
             { range: [1, 2], color: "#AED6F1" },
